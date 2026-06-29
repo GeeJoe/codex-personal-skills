@@ -53,6 +53,7 @@ Current imported skills:
 - godogen
 - godot-api
 - grill-me
+- text-to-lottie
 
 ## Before Publishing
 
