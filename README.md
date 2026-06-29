@@ -50,12 +50,9 @@ Current imported skills:
 
 - android-interview-feedback
 - android-interview-outline
-- e2e-driven-development
+- godogen
+- godot-api
 - grill-me
-- hatch-pet
-- pdf
-- playwright
-- seedance2-viral-video
 
 Excluded from the initial GitHub-ready import because they contain company-specific workflow knowledge or local document caches:
 
