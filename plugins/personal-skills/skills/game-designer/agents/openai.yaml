@@ -1,0 +1,7 @@
+interface:
+  display_name: "Game Designer"
+  short_description: "系统、循环、经济与成长设计"
+  default_prompt: "Use $game-designer to design or review game systems, loops, economy, progression, tutorial flow, and balance assumptions."
+
+policy:
+  allow_implicit_invocation: true
