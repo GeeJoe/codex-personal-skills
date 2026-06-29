@@ -1,0 +1,7 @@
+interface:
+  display_name: "Android Interview Feedback"
+  short_description: "Android 面试反馈整理与保守评分"
+  default_prompt: "Use $android-interview-feedback to turn this Android interview transcript into evidence-based interview feedback."
+
+policy:
+  allow_implicit_invocation: true

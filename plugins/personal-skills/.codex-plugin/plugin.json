@@ -1,0 +1,24 @@
+{
+  "name": "personal-skills",
+  "version": "0.1.0",
+  "description": "Personal Codex skills synced across machines.",
+  "author": {
+    "name": "lizhiyue",
+    "email": "lizhiyue.gee@bytedance.com"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Personal Skills",
+    "shortDescription": "Personal Codex skills collection.",
+    "longDescription": "A local plugin that packages personal Codex skills so they can be versioned and installed on multiple machines.",
+    "developerName": "lizhiyue",
+    "category": "Productivity",
+    "capabilities": [
+      "Skills"
+    ],
+    "defaultPrompt": [
+      "Show my available personal skills.",
+      "Use one of my personal skills for this task."
+    ]
+  }
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "E2E Driven Development"
+  short_description: "Drives changes through E2E acceptance, implementation, validation, and evidence reports."
+  default_prompt: "Use E2E-driven development to align acceptance cases, implement the change, run practical tests, execute real E2E validation, and write an evidence-backed report."
