@@ -50,6 +50,8 @@ Current imported skills:
 
 - android-interview-feedback
 - android-interview-outline
+- generate2dmap
+- generate2dsprite
 - godogen
 - godot-api
 - grill-me
