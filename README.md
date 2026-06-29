@@ -54,13 +54,6 @@ Current imported skills:
 - godot-api
 - grill-me
 
-Excluded from the initial GitHub-ready import because they contain company-specific workflow knowledge or local document caches:
-
-- bytedcli
-- dot-skill
-- dreamina-analytics-agent
-- dreamina-h5-e2e-preview
-
 ## Before Publishing
 
 Review the imported skill content before pushing to a public repository. Several skills may contain company-specific workflow knowledge, so a private repository is the safer default.
