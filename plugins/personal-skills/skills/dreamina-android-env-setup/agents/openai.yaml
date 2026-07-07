@@ -1,0 +1,4 @@
+interface:
+  display_name: "Dreamina Android Env Setup"
+  short_description: "Set up Dreamina Android on macOS."
+  default_prompt: "Use $dreamina-android-env-setup to set up Dreamina Android so it opens in Android Studio, builds with RemoteX, and runs on an emulator."

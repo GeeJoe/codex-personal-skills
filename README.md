@@ -50,6 +50,7 @@ Current imported skills:
 
 - android-interview-feedback
 - android-interview-outline
+- dreamina-android-env-setup
 - game-designer
 - generate2dmap
 - generate2dsprite
