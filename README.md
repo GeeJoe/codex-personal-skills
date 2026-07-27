@@ -57,6 +57,7 @@ Current imported skills:
 - godogen
 - godot-api
 - grill-me
+- handoff
 - level-designer
 - text-to-lottie
 
