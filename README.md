@@ -22,12 +22,15 @@ codex plugin add personal-skills@codex-personal
 
 Start a new Codex thread after installing so the plugin skills are loaded.
 
+Skills do not bundle machine-level executables. For Hypit CLI, local rendering,
+browser capture and video-download dependencies, see [Hypit setup](docs/hypit-setup.md).
+
 ## Update Flow
 
 After editing or adding skills:
 
 ```bash
-python3 /Users/bytedance/.codex/skills/.system/plugin-creator/scripts/validate_plugin.py plugins/personal-skills
+git diff --check
 git add .
 git commit -m "Update personal skills"
 git push
@@ -58,9 +61,17 @@ Current imported skills:
 - godot-api
 - grill-me
 - handoff
+- hypit
 - last30days
+- last30days-cn
 - level-designer
 - text-to-lottie
+- zhongjie
+
+Additional upstream sources: [Hypit](https://github.com/hypit-ai/hypit/tree/main/skills/hypit),
+[last30days-cn](https://github.com/Jesseovo/last30days-skill-cn/tree/main/skills/last30days),
+and [zhongjie](https://github.com/MorvanZhou/zhongjie/tree/main/skills/zhongjie).
+Their upstream terms apply; Hypit's license is retained beside its skill.
 
 ## Before Publishing
 
