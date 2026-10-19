@@ -66,12 +66,18 @@ Current imported skills:
 - last30days-cn
 - level-designer
 - text-to-lottie
+- yue2-music
 - zhongjie
 
 Additional upstream sources: [Hypit](https://github.com/hypit-ai/hypit/tree/main/skills/hypit),
 [last30days-cn](https://github.com/Jesseovo/last30days-skill-cn/tree/main/skills/last30days),
+[YuE2 Music](https://github.com/multimodal-art-projection/YuE/tree/1647252d68b70cbead046ffd3f7caf036dde47ee/skills/yue2-music),
 and [zhongjie](https://github.com/MorvanZhou/zhongjie/tree/main/skills/zhongjie).
-Their upstream terms apply; Hypit's license is retained beside its skill.
+Their upstream terms apply; Hypit and YuE2 Music retain their bundled licenses.
+
+YuE2 Music is imported from upstream commit `1647252d68b70cbead046ffd3f7caf036dde47ee`,
+including its instrumental workflow. Model weights and inference environments are
+installed separately; see [YuE2 setup](plugins/personal-skills/skills/yue2-music/references/models-and-setup.md).
 
 ## Before Publishing
 
