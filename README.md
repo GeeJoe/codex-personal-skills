@@ -53,6 +53,7 @@ Current imported skills:
 
 - android-interview-feedback
 - android-interview-outline
+- chrome-extensions
 - dreamina-android-env-setup
 - game-designer
 - generate2dmap
@@ -65,6 +66,7 @@ Current imported skills:
 - last30days
 - last30days-cn
 - level-designer
+- modern-web-guidance
 - text-to-lottie
 - yue2-music
 - zhongjie
@@ -72,8 +74,13 @@ Current imported skills:
 Additional upstream sources: [Hypit](https://github.com/hypit-ai/hypit/tree/main/skills/hypit),
 [last30days-cn](https://github.com/Jesseovo/last30days-skill-cn/tree/main/skills/last30days),
 [YuE2 Music](https://github.com/multimodal-art-projection/YuE/tree/1647252d68b70cbead046ffd3f7caf036dde47ee/skills/yue2-music),
-and [zhongjie](https://github.com/MorvanZhou/zhongjie/tree/main/skills/zhongjie).
-Their upstream terms apply; Hypit and YuE2 Music retain their bundled licenses.
+[zhongjie](https://github.com/MorvanZhou/zhongjie/tree/main/skills/zhongjie),
+and [Modern Web Guidance](https://github.com/GoogleChrome/modern-web-guidance).
+Their upstream terms apply; Hypit, YuE2 Music, and the Chrome skills retain their bundled licenses.
+
+Chrome Extensions and Modern Web Guidance are imported together from upstream release
+`v0.0.196`, commit `4f2b13e25c5815b3f080ca0d983e828d96561a0f`.
+See [Chrome skills setup](docs/chrome-skills-setup.md) for installation, usage, and updates.
 
 YuE2 Music is imported from upstream commit `1647252d68b70cbead046ffd3f7caf036dde47ee`,
 including its instrumental workflow. Model weights and inference environments are
